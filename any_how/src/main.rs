@@ -5,6 +5,8 @@ use axum::{
 	Router,
 };
 
+fn y123() {}
+
 
 #[tokio::main]
 async fn main() {
