@@ -23,7 +23,7 @@ async fn h() -> Result<(), AppError> {
 }
 
 fn try_thing() -> Result<(), anyhow::Error> {
-	anyhow::bail!("it222 failed!")
+	anyhow::bail!("it failed!")
 }
 
 struct AppError(anyhow::Error);
