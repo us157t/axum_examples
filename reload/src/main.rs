@@ -16,10 +16,10 @@ async fn main() {
 		None => TcpListener::bind("127.0.0.1:3000")
 		.await.unwrap(),
 	};
-	println!("334istening on {}", lis.local_addr().unwrap());
+	println!("istening on {}", lis.local_addr().unwrap());
 	axum::serve(lis, app).await.unwrap();
 }
 
 async fn h() -> Html<&'static str> {
-	Html("<h1>Hello31</h1>")
+	Html("<h1>Hello</h1>")
 }
